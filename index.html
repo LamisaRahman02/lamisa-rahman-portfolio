@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamisa Rahman — Frontend Developer</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+  <nav class="wrap">
+    <a class="logo" href="#top">
+      <span class="logo-mark">LR</span>Lamisa
+    </a>
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#top" class="active">Home</a></li>
+      <li><a href="#what-i-do">Features</a></li>
+      <li><a href="#work">Portfolio</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <div class="nav-tools">
+      <button id="themeToggle" aria-label="Toggle theme">◐</button>
+      <a href="#contact" class="btn btn-nav">Hire Me</a>
+      <button id="navBurger" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div class="hero-copy reveal">
+      <div class="tag">Welcome to my space</div>
+      <h1>Hi, I'm Lamisa Rahman<br>a <em>Frontend Developer.</em></h1>
+      <p>I love turning creative ideas into beautiful, easy-to-use websites. I focus on writing clean code and building friendly interfaces that work perfectly on any device.</p>
+      
+      <div class="hero-actions">
+        <a href="#work" class="btn">See My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      
+      <div class="hero-social">
+        <a href="https://github.com" target="_blank" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">IN</a>
+       
+      </div>
+    </div>
+    
+    <!-- Reduced Image Area -->
+    <div class="hero-art hero-art-compact reveal">
+      <img src="profile.jpg" alt="Lamisa Rahman" class="hero-photo" onerror="this.src='https://via.placeholder.com/280x280?text=Profile+Photo'">
+
+      <div class="hero-badge">
+        Always learning and building.
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<!-- What I Do Section -->
+<section id="what-i-do">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="tag">Features</div>
+      <h2>What I Do</h2>
+      <p>A snapshot of the areas I work in day to day, from initial design concepts to responsive web builds and hardware setups.</p>
+    </div>
+    
+    <div class="grid-3 reveal">
+      <div class="skill-card">
+        <div class="icon-box">💻</div>
+        <h3>Frontend Development</h3>
+        <p>I build the visual parts of websites using HTML, CSS, and JavaScript, making sure everything runs smoothly.</p>
+      </div>
+      
+      <div class="skill-card">
+        <div class="icon-box">📱</div>
+        <h3>Responsive Web Design</h3>
+        <p>I create layouts that automatically adjust to look perfect on mobile phones, tablets, and desktops.</p>
+      </div>
+      
+      <div class="skill-card">
+        <div class="icon-box">🎨</div>
+        <h3>UI/UX Prototyping</h3>
+        <p>Before writing code, I map out the design and flow so the web app feels natural and easy to use.</p>
+      </div>
+      
+      <div class="skill-card">
+        <div class="icon-box">🤖</div>
+        <h3>Embedded Systems &amp; Low-Level</h3>
+        <p>Designing circuit layouts, sensor integration, and assembly language logic for microcontrollers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head reveal center">
+      <div class="tag">My Recent Works</div>
+      <h2>My Portfolio</h2>
+    </div>
+    
+    <div class="port-grid reveal" id="portGrid">
+      
+      <!-- Project 01: Meal Management System -->
+      <div class="port-item">
+        <div class="port-thumb-box">
+          <img src="meal management .png" alt="Meal Management System" class="port-img" onerror="this.src='https://via.placeholder.com/400x240?text=Meal+Management+System'">
+          <span class="port-tag">Web App</span>
+        </div>
+        <div class="port-info">
+          <h3>Meal Management System</h3>
+          <p>A simple platform to plan daily meals, manage grocery lists, and track food expenses.</p>
+          <a href="https://github.com/your-username/meal-management-system" target="_blank" class="port-github-link">
+            <span>View Code on GitHub</span> →
+          </a>
+        </div>
+      </div>
+      
+      <!-- Project 02: Event Management System -->
+      <div class="port-item">
+        <div class="port-thumb-box">
+          <img src="event.png" alt="Event Management System" class="port-img" onerror="this.src='https://via.placeholder.com/400x240?text=Event+Management+System'">
+          <span class="port-tag">Web App</span>
+        </div>
+        <div class="port-info">
+          <h3>Event Management System</h3>
+          <p>A responsive application designed to help users plan, schedule, and organize upcoming events easily.</p>
+        </div>
+      </div>
+
+      <!-- Project 03: Line Following Robot -->
+      <div class="port-item">
+        <div class="port-thumb-box">
+          <img src="line following robot.jpg" alt="Line Following Robot" class="port-img" onerror="this.src='https://via.placeholder.com/400x240?text=Line+Following+Robot'">
+          <span class="port-tag">Embedded Systems</span>
+        </div>
+        <div class="port-info">
+          <h3>Line Following Robot</h3>
+          <p>An autonomous robot equipped with IR sensors and microcontroller motor driver controls for precise track navigation.</p>
+        </div>
+      </div>
+
+      <!-- Project 04: Password Verification System -->
+      <div class="port-item">
+        <div class="port-thumb-box">
+          <img src="password.jpg" alt="Password Verification System" class="port-img" onerror="this.src='https://via.placeholder.com/400x240?text=8086+Password+System'">
+          <span class="port-tag">8086 Assembly</span>
+        </div>
+        <div class="port-info">
+          <h3>Password Verification System</h3>
+          <p>A low-level security implementation developed in 8086 Assembly Language to validate user credentials and access states.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+  <div class="wrap">
+    <div class="section-head reveal center">
+      <div class="tag">My Background</div>
+      <h2>My Resume</h2>
+    </div>
+    
+    <div class="tabs reveal center-wrap">
+      <button class="tab-btn active" data-tab="edu">Education</button>
+      <button class="tab-btn" data-tab="exp">Experience</button>
+      <button class="tab-btn" data-tab="skills">Skills</button>
+    </div>
+
+    <!-- Education Tab -->
+    <div class="tab-panel active" id="edu">
+      <h4>Education History</h4>
+      <div class="tl-grid">
+        <div class="tl-card">
+          <span class="tl-badge">2019 — 2021</span>
+          <h5>Higher Secondary Certificate</h5>
+          <p>Built a strong foundation in science, logic, and fundamental computer technology.</p>
+        </div>
+        <div class="tl-card">
+          <span class="tl-badge">2023 — Present</span>
+          <h5>B.Sc. in Computer Science</h5>
+          <p>Focusing on web technologies, software engineering, and practical programming projects.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Tab -->
+    <div class="tab-panel" id="exp">
+      <h4>Practical Experience</h4>
+      <div class="tl-grid">
+        <div class="tl-card">
+          <span class="tl-badge">2022 — 2023</span>
+          <h5>Web Design Intern</h5>
+          <p>Learned the basics of building responsive layouts and collaborated with teammates on client web projects.</p>
+        </div>
+        <div class="tl-card">
+          <span class="tl-badge">2023 — Present</span>
+          <h5>Frontend Developer (Freelance)</h5>
+          <p>Building custom web apps (like meal and event trackers) to solve real problems and grow my coding skills.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Tab -->
+    <div class="tab-panel" id="skills">
+      <h4>Technical Skillset</h4>
+      <div class="skills-bars">
+        <div>
+          <div class="bar-row"><span>HTML5 / CSS3</span><span>95%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="95"></div></div>
+        </div>
+        <div>
+          <div class="bar-row"><span>JavaScript (ES6+)</span><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="85"></div></div>
+        </div>
+        <div>
+          <div class="bar-row"><span>UI/UX Prototyping (Figma)</span><span>80%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="80"></div></div>
+        </div>
+        <div>
+          <div class="bar-row"><span>Embedded Systems &amp; Assembly (8086)</span><span>75%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="75"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section id="testimonial">
+  <div class="wrap">
+    <div class="section-head reveal center">
+      <div class="tag">Feedback</div>
+      <h2>What People Say</h2>
+    </div>
+    <div class="testi-card reveal">
+      <div class="testi-avatar">SA</div>
+      <p>"Lamisa is incredibly dedicated and learns very fast. She really cares about making websites easy to use and always brings fresh, creative ideas to our group projects."</p>
+      <b>Sarah Ahmed</b>
+      <span>Project Teammate / Mentor</span>
+    </div>
+  </div>
+</section>
+
+<!-- Tools & Tech Section -->
+<section id="tools">
+  <div class="wrap">
+    <div class="section-head reveal center">
+      <div class="tag">My Stack</div>
+      <h2>Tools &amp; Tech I Use</h2>
+    </div>
+    <div class="clients-grid reveal">
+      <div class="client-logo">HTML5 / CSS3</div>
+      <div class="client-logo">JavaScript</div>
+      <div class="client-logo">React</div>
+      <div class="client-logo">8086 Assembly</div>
+      <div class="client-logo">Embedded C</div>
+      <div class="client-logo">GitHub</div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal center">
+      <div class="tag">Get In Touch</div>
+      <h2>Contact With Me</h2>
+      <p>Have an idea for a website or need help with a project? Send a message and let's chat!</p>
+    </div>
+    
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="item">
+          <span>Email</span>
+          <b>lamisarahman573@gmail.com</b>
+        </div>
+        <div class="item">
+          <span>Location</span>
+          <b>Dhaka, Bangladesh — Remote Friendly</b>
+        </div>
+        
+        <div class="hero-social" style="margin-top:32px;">
+          <a href="https://github.com" target="_blank" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">IN</a>
+          
+        </div>
+      </div>
+      
+      <form id="contactForm">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        
+        <div class="form-status" id="formStatus"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> Lamisa Rahman. Built with vanilla HTML, CSS &amp; JS.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
