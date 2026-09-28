@@ -933,3 +933,45 @@ footer {
     font-size: 0.9rem;
   }
 }
+/* =========================================
+   COMING SOON PROJECT CARD
+========================================= */
+.port-item.port-coming-soon {
+  border: 2px dashed var(--border);
+  background: var(--bg-alt);
+  opacity: 0.88;
+  transition: all 0.3s ease;
+}
+
+.port-item.port-coming-soon:hover {
+  border-color: var(--accent);
+  opacity: 1;
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.coming-soon-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  height: 185px;
+  position: relative;
+}
+
+.coming-soon-icon {
+  font-size: 2.4rem;
+  color: var(--accent);
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 1;
+  }
+}
